@@ -49,7 +49,6 @@ function draw() {
   paper.display();
   ground.display();
 
-keyPressed();
 
   drawSprites();
  
@@ -57,7 +56,7 @@ keyPressed();
 
 function keyPressed(){
 	if (keyCode===UP_ARROW){
-Matter.Body.applyForce(paper.body,paper.body.position,{x:15,y:-15})
+Matter.Body.applyForce(paper.body,paper.body.position,{x:85,y:-85})
 	}
 }
 
